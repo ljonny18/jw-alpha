@@ -1,0 +1,70 @@
+/* Define the "system" font family */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+html, body {
+	margin: 0px;
+	height: 100%;
+}
+body {
+	font-family: "system" !important;
+    font-size: 18px !important;
+    color: #36313d !important;
+
+	background-color: whitesmoke !important;
+}
+
+.color-bar {
+    height: 20px;
+}
+.color-bar-gradient {
+	background: linear-gradient(to right, #EF476F, #FFD166, #00BF8E, #118AB2);
+}
+
+
+a {
+	text-decoration: none !important;
+}
+a:link {
+  color: #118AB2 !important;
+}
+a:visited {
+  color: #118AB2 !important;
+}
+a:hover {
+  color: #06D6A0 !important;
+}
+a:active {
+  color: #118AB2 !important;
+}
+
+.profile-logo {
+	max-width: 400px;
+}
+
+.profile-icon {
+  font-size: 6vw;
+}
+@media screen and (min-width: 992px) {
+  .profile-icon {
+    font-size: 36px;
+  }
+}
+
+.lead {
+    font-size: 24px !important;
+    font-weight: 300;
+}
+.lead-lg {
+    font-size: 28px !important;
+    font-weight: 200;
+}
+
+.text-banner-text {
+	font-size: 30px !important;
+	font-weight: 200;
+}
